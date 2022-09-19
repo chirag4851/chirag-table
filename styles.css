@@ -1,0 +1,15 @@
+table,
+td,
+tr,
+th {
+  border: 1px solid rgb(14, 13, 13);
+  border-collapse: collapse;
+}
+th {
+  text-align: left;
+}
+tfoot{
+  background-color: rgb(238, 128, 128);
+}
+tr:nth-child(even){background-color: rgb(150, 152, 153);}
+tr:nth-child(odd){background-color: rgb(37, 162, 224);}
